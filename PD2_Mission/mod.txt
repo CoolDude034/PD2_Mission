@@ -5,9 +5,29 @@
     "contact" : "",
     "version" : "1.0",
     "hooks" : [
-        {   
+        {
             "hook_id" : "lib/managers/mission/elementobjective",
             "script_path" : "elements/elementobjective.lua"
+        },
+        {
+            "hook_id" : "lib/managers/mission/elementspawnenemydummy",
+            "script_path" : "elements/elementspawnenemydummy.lua"
+        },
+        {
+            "hook_id" : "lib/units/enemies/cop/logics/coplogicattack",
+            "script_path" : "logics/coplogicattack.lua"
+        },
+        {
+            "hook_id" : "lib/units/enemies/cop/logics/coplogicarrest",
+            "script_path" : "logics/coplogicarrest.lua"
+        },
+        {
+            "hook_id" : "lib/units/enemies/cop/logics/coplogicintimidated",
+            "script_path" : "logics/coplogicintimidated.lua"
+        },
+        {
+            "hook_id" : "lib/managers/group_ai_states/groupaistatebase",
+            "script_path" : "groupaistatebase.lua"
         },
         {   
             "hook_id" : "lib/managers/missionmanager",
