@@ -1,2 +1,0 @@
-function CopLogicIntimidated._chk_begin_alarm_pager(data)
-end
