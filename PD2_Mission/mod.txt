@@ -7,7 +7,7 @@
     "hooks" : [
         {   
             "hook_id" : "lib/managers/mission/elementobjective",
-            "script_path" : "elementobjective.lua"
+            "script_path" : "elements/elementobjective.lua"
         },
         {   
             "hook_id" : "lib/managers/missionmanager",
